@@ -1,7 +1,13 @@
+import { Provider } from 'react-redux'
+import { Catalog } from './components/Catalog';
+import store from './store';
+
 export const App = () => {
 	return (
-		<div className="App">
-			<h1>Hello World</h1>
-		</div>
+		<Provider store={store}>
+			<div className="App">
+				<Catalog />
+			</div>
+		</Provider>
 	);
 }
