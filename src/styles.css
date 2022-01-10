@@ -1,0 +1,37 @@
+h1 {
+    margin-bottom: 16px;
+    color: darkorange;
+}
+
+article {
+    margin-bottom: 12px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+    background-color: darkorange;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+button:disabled {
+    cursor: default;
+    background-color: burlywood;
+}
+
+th {
+    padding: 8px;
+    background-color: darkorange;
+}
+
+td {
+    padding: 8px;
+    border-top: 1px solid tomato;
+}
